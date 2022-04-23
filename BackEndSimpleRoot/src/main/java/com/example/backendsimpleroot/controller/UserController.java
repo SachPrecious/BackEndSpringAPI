@@ -11,6 +11,7 @@ public class UserController {
     //post -save data
     //put - update data
     //delete -delete data
+    //All of these are post requests we are going to implement here
     @GetMapping("/getUser")
     public String getUser(){
         return "Get User";
